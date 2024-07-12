@@ -1,0 +1,405 @@
+<!-- Requirements: 1  Create an HTML structure and add CSS and Bootstrap to it.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment : 1</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <!-- Requirements: 5 - Create a navbar via Bootstrap and it must have a dropdown menu. -->
+    <!-- NavBar start -->
+    <nav class="navbar shadow-sm sticky-top navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><span class="fw-bolder text-primary">CodeWith Abul Hossain</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navContent"
+          aria-controls="navContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Me
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="resume.htm">Resume</a></li>
+                <li>
+                  <a class="dropdown-item" href="project.html">Project</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html"> Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html"> Blog </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Login/Register
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li>
+                  <a class="dropdown-item" href="register.html">Register</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NavBar end -->
+    <!-- Requirements: 3 - Create a paragraph text and its color will be red. -->
+    <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+    <section class="m-xl-5">
+      <!-- Requirements: 3 - Create a paragraph text and its color will be red. -->
+      <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+      <div class="container">
+        <div class="row">
+          <div class="col-4 w-50 h-25 bg-danger mx-auto rounded-1 mt-2">
+            <h1 class="text-center">What is Bootstrap?</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              Bootstrap is the most popular CSS Framework for developing
+              responsive and mobile-first websites. <br />
+              Bootstrap 5 is the newest version of Bootstrap
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <button class="btn btn-primary">
+              <a
+                class="text-black"
+                href="https://www.w3schools.com/whatis/whatis_bootstrap.asp"
+                target="_blank"
+                >Red More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 w-50 h-25 bg-info mx-auto rounded-2 mt-2">
+            <h1 class="text-center">Introduction to HTML</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              HTML is the standard markup language for creating Web pages. What
+              is HTML? HTML stands for Hyper Text Markup Language; HTML is the
+              standard markup language ...
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <div class="text-end">
+              <button class="btn btn-secondary">
+                <a
+                  class="text-white"
+                  href="https://www.w3schools.com/html/html_intro.asp"
+                  target="_blank"
+                  >Learn To HTML</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div
+            class="col-4 w-50 h-25 bg-dark text-danger mx-auto rounded-1 mt-2"
+          >
+            <h1 class="text-center">free image download</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              Download the perfect free pictures. Find over 100+ of the best
+              free free images. Free for commercial use ✓ No attribution
+              required ✓ Copyright-free.
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <div class="text-center">
+              <button class="btn btn-info">
+                <a
+                  class="text-black"
+                  href="https://unsplash.com/s/photos/free"
+                  target="_blank"
+                  >Download</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 w-50 h-25 bg-light mx-auto rounded-1 mt-2">
+            <h1 class="text-center">Bootstrap CSS Classes Cheat Sheet</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              These classes control the overall appearance, as well as the
+              showing and hiding via CSS transitions. You can modify any of this
+              with custom CSS or overriding ...
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <button class="btn btn-success">
+              <a
+                class="text-white"
+                href="https://getbootstrap.com/docs/4.0/components/buttons/"
+                target="_blank"
+                >Cheat Sheet Link</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div
+            class="col-4 w-50 h-25 bg-secondary text-white mx-auto rounded-1 mt-2"
+          >
+            <h1 class="text-center">what is mern stack developer</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              MERN Stack Development MERN Stack is a combination of the latest
+              technologies used for creating premium web applications. These
+              applications are developed using multiple frameworks, databases,
+              libraries, and more. It comprises several open-source components
+              such as MongoDB, React, Node. js, and ExpressJS framework.
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <button class="btn btn-danger">
+              <a
+                class="text-info"
+                href="https://www.w3schools.com/whatis/whatis_bootstrap.asp"
+                target="_blank"
+                >Lern More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 w-50 h-25 mx-auto rounded-1 mt-2">
+            <h1 class="text-center">My Resume</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <div class="text-center">
+              <button class="btn btn-warning">
+                <a class="text-black" href="resume.htm" target="_blank"
+                  >Check My Resume</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Requirements: 4 -  Put text inside an h1 tag and give it a background color. -->
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 bg-danger-subtle p-4 rounded-bottom-4 rounded-end-4"
+          >
+            <h1 class="text-center text-bg-danger p-3 rounded-4 w-50 mx-auto">
+              MERN Stack Explained
+            </h1>
+            <p>
+              MERN is one of several variations of the
+              <a
+                href="https://www.mongodb.com/resources/languages/mean-stack"
+                target="_blank"
+                >MEAN stack</a
+              >
+              (MongoDB, Express, Angular, Node), where the traditional
+              Angular.js front-end framework is replaced with React.js. Other
+              variants include MEVN (MongoDB, Express, Vue, Node), and really
+              any front-end JavaScript framework.
+            </p>
+            <p>
+              Ready to take the next step? Set up your free MongoDB Atlas
+              account by clicking below and try our
+              <a
+                href="https://www.mongodb.com/resources/languages/mern-stack-tutorial"
+                target="_blank"
+                >MERN Stack Tutorial</a
+              >
+              to create a full-stack MERN application in no time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Requirements: 6 -  Create a forms Input group through Bootstrap and it must have Sizing set to Small. -->
+    <section class="mt-5 bg-danger-subtle">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <form>
+              <label class="form-label mt-5" for="name">Name</label>
+              <input
+                class="form-control form-control-sm"
+                type="text"
+                placeholder="Enter your name"
+              />
+              <label class="form-label mt-2" for="email">Email</label>
+              <input
+                class="form-control form-control-sm"
+                type="email"
+                placeholder="Entert your email"
+                name="email"
+                id="email"
+              />
+              <label class="form-label mt-2" for="file">File</label>
+              <input
+                class="form-control form-control-sm mt-2"
+                type="file"
+                name="file"
+                id="file"
+              />
+              <label class="form-label mt-2" for="file">write a message</label>
+              <textarea
+                class="form-control form-control-sm mt-2"
+                name="text"
+                placeholder="write a message"
+                id="text"
+                rows="12"
+              ></textarea>
+              <label class="form-label mt-2" for="district"
+                >select your district</label
+              >
+              <select
+                class="form-select form-select-sm"
+                name="district"
+                id="district"
+              >
+                <option value="select your district">
+                  Select Your District
+                </option>
+                <option value="barishal" selected>Barishal</option>
+                <option value="dhaka">Dhaka</option>
+                <option value="bhola">Bhola</option>
+                <option value="Jhalokathi">Jhalokathi</option>
+              </select>
+              <div>
+                <div class="form-check">
+                  <h6>choose your favorite food</h6>
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                    class="form-check-input"
+                  />
+                  <label class="form-check-label" for="">Rise</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                    class="form-check-input"
+                  />
+                  <label class="form-check-label" for="">Fish</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                    class="form-check-input"
+                  />
+                  <label class="form-check-label" for="">Bife</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                    class="form-check-input"
+                  />
+                  <label class="form-check-label" for="">Chicking </label>
+                </div>
+              </div>
+              <div>
+                <div class="form-check">
+                  <input type="radio" name="gender" />
+                  <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" name="gender" />
+                  <label class="form-check-label">Female</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" name="gender" />
+                  <label class="form-check-label">Others</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Requirements: 7 -  Suppose you have three h2 tags, now you have to place the h2 three horizontally. And it must be in reverse. How to do it with bootstra -->
+    <section class="mt-5 bg-info-subtle">
+      <div class="container">
+        <div
+          class="row p-5 bg-success text-center d-flex justify-content-between flex-lg-row-reverse"
+        >
+          <div class="col-lg-3 m-2 bg-dark-subtle">
+            <h2>First Div</h2>
+          </div>
+          <div class="col-lg-3 m-2 bg-danger-subtle"><h2>Second Div</h2></div>
+          <div class="col-lg-3 m-2 bg-light-subtle"><h2>3rd Div</h2></div>
+        </div>
+      </div>
+    </section>
+    <script src="./src/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

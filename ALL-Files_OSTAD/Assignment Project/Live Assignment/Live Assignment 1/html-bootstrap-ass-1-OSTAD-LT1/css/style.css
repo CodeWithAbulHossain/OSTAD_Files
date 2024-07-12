@@ -1,0 +1,39 @@
+nav .text-color {
+  color: brown;
+}
+header div .bg-color {
+  background-color: chocolate;
+  color: black;
+  border-radius: 19px;
+}
+
+main {
+  margin-top: 65px;
+}
+
+main .first-col-bg {
+  background-color: beige;
+  border-radius: 20px;
+}
+main .seconed-col-bg {
+  background-color: darkgrey;
+  border-radius: 20px;
+}
+main .text-color2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
+}
+
+main .text-color3 {
+  font-size: 25px;
+  color: brown;
+}
+footer .footer-text {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+footer .nav-item-bg {
+  background-color: saddlebrown;
+}
